@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ethnic Tops</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../CSS/women.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div>
+		<!--Code of navbar is starting (included from index.html)-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand" href="../index.html" title="Friend's Home">Friend's</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item dropdown active">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Women
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="../women.html">Glance Women Category</a>
+		          <div class="dropdown-divider"></div>
+		          	<a class="dropdown-item" href="ethnicTops.html">ETHNIC TOPS</a>
+		          	<a class="dropdown-item" href="#">SAREE</a>
+		          	<a class="dropdown-item" href="#">TEES</a>
+		          	<a class="dropdown-item" href="#">LONG DRESS</a>
+		          	<a class="dropdown-item" href="#">CLOTHING</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Men
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="../men.html">Glance Men Category</a>
+		          <div class="dropdown-divider"></div>
+		          	<a class="dropdown-item" href="#">CASUAL SHIRTS</a>
+		          	<a class="dropdown-item" href="#">PUNJABI</a>
+		          	<a class="dropdown-item" href="#">JEANS</a>
+		          	<a class="dropdown-item" href="#">FATUA</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Kids
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="../kids.html">Glance Kids Category</a>
+		          <div class="dropdown-divider"></div>
+		          	<a class="dropdown-item" href="#">BOYS</a>
+		          	<a class="dropdown-item" href="#">GIRLS</a>
+		          	<a class="dropdown-item" href="#">LAWNS</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="../newIn.html">New In</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="../customShirts.html">Customized Shirts</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search.." aria-label="Search">
+		      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>
+		<!--Code of navbar is finished-->
+	</div>
+	<br/>
+	<!--Starting of codes for sidebar-->
+	<div>
+		<div class="alert alert-secondary" id="border-layout">
+		  <strong>ETHNIC TOPS</strong>
+		</div>
+		<div class="list-group" style="width: 333px; height: auto; padding-left: 50px;">
+			<ul class="list-group">
+			  <li class="list-group-item list-group-item-action list-group-item-light"><a href="../newIn.html" class="bolding">New In</a><span><i class="fas fa-plus float-right this" onclick="expNewIn()" id="openNewIn" title="See what's here"></i></span><span><i class="fas fa-minus float-right this" onclick="hideNewIn()" id="closeNewIn" style="display:none;" title="Hide"></i></span></li>
+			  	<ul class="list-group" id="NewIn">
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">WINTER COLLECTION '18-19</a></li>
+				</ul>
+			  <li class="list-group-item list-group-item-action list-group-item-light"><a href="../women.html" class="bolding">Women</a><span><i class="fas fa-plus float-right this" onclick="expWomen()" id="openWomen" style="display:none;" title="See what's here"></i></span><span><i class="fas fa-minus float-right this" onclick="hideWomen()" id="closeWomen" title="Hide"></i></span></li>
+			  	<ul class="list-group" id="Women">
+				  <li class="list-group-item list-group-item-action activ"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="ethnicTops.html">Ethnic Tops</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Saree</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Tees</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Long Dress</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Clothing</a></li>
+				</ul>
+			  <li class="list-group-item list-group-item-action list-group-item-light"><a href="../men.html" class="bolding">Men</a><span><i class="fas fa-plus float-right this" onclick="expMen()" id="openMen" title="See what's here"></i></span><span><i class="fas fa-minus float-right this" onclick="hideMen()" style="display:none;" id="closeMen" title="Hide"></i></span></li>
+			  	<ul class="list-group" id="Men">
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Casual Shirts</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Punjabi</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Jeans</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Fatua</a></li>
+				</ul>
+			  <li class="list-group-item list-group-item-action list-group-item-light"><a href="../kids.html" class="bolding">Kids</a><span><i class="fas fa-plus float-right this" onclick="expKids()" id="openKids" title="See what's here"></i></span><span><i class="fas fa-minus float-right this" onclick="hideKids()" id="closeKids" style="display:none;" title="Hide"></i></span></li>
+			  	<ul class="list-group" id="Kids">
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Boys</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Girls</a></li>
+				  <li class="list-group-item list-group-item-action"><span><i class="fas fa-angle-right"></i></span>&emsp;<a href="#">Lawns</a></li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+
+	<!--Including JS file for functionality on the side bar-->
+	<script src="../JS/hide-and-seek.js"></script>
+</body>
+</html>

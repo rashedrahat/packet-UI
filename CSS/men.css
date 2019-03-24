@@ -1,0 +1,36 @@
+i {
+	float: left;
+}
+
+i.this {
+	cursor: pointer;
+}
+
+i.this:hover {
+	background-color: #f5f5f0;
+}
+
+#NewIn, #Women, #Kids {
+		  	display: none;
+		}
+
+li.activ {
+	background-color: #f2f2f2;
+}
+
+li.list-group-item a {
+	text-decoration: none;
+	color: grey;
+}
+
+li.list-group-item a.bolding {
+	font-weight: bold;
+	color: black;
+}
+
+#border-layout {
+	width: 283px;
+	height: 50px;
+	margin-left: 50px;
+	border-left: 5px solid black;
+}
