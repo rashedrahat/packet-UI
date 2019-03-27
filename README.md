@@ -1,5 +1,5 @@
 # packet-UI
-- Mega Menu
+- Mega Menu with Animated Sidebar
 - Slider Area
 - Blog Home Page
 - Career Page
